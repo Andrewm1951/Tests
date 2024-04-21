@@ -4,5 +4,14 @@ full_name = first_name +" "+ last_name
 print ("Hello "+full_name)
 
 age = 25
-age = age +1
-print (age)
+age += 1
+print ("Your age is: "+str(age))
+#print (type)(age))
+
+height = 260.5
+print("your height is: "+str(height)+"cm")
+#print (type(height))
+
+human = True
+print ("Are you a human: "+str(human))
+#print(type(human))
